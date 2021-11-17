@@ -1,0 +1,93 @@
+<!-- <div class="contact-page-container">
+    <div class="form-background">
+        <div class="title">
+            <h1>BUSINESS CONTACT FORM</h1>
+        </div>
+        <form  class="contact-form" (sumbit)="sendEmail($event)">
+            <div class="input-wraps">
+                <div class=" input-indi">
+                    <label>First Name:</label>
+                    <input type="text" name="user_firstname" />
+                </div>
+                <div class="input-indi">
+                    <label>Last Name:</label>
+                    <input type="text" name="user_lastname" />
+                </div>
+            </div>
+            <div class="input-wraps">
+                <div class="input-indi">
+                    <label>Email:</label>
+                    <input type="email" name="Email" />
+                </div>
+                <div class=" input-indi">
+                    <label>Phone Number:</label>
+                    <input type="text" name="user_phone" />
+                </div>
+            </div>
+            <div class="input-wraps">
+                <div class="input-indi">
+                    <label>Event/Event Type:</label>
+                    <input type="text" name="user_eventtype"/>
+                </div>
+                <div class="input-indi">
+                    <label for="eventdate">Event Date:</label>
+                    <input type="text" name="user_eventdate" />
+                </div>
+            </div>
+            
+            
+            <div class="textarea-box">
+                <label>More Info:</label>
+                <textarea name="message"></textarea>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Submit" />
+            </div>
+
+        </form>
+    </div>
+</div> -->
+
+
+
+<div class="contact-page-container" id="contact">
+    <div class="form-background">
+        <div class="title">
+            <h1>BUSINESS CONTACT FORM</h1>
+        </div>
+        <form #myform class="contact-form" (submit)="sendEmail($event)">
+            <div class="input-wraps">
+                <div class="input-indi">
+                    <label>Name</label>
+                    <input type="text" name="user_name">
+                </div>
+
+                <div class="input-indi">
+                    <label>Email</label>
+                    <input type="email" name="user_email">
+                </div>
+            </div>
+            <div class="input-wraps">
+                <div class="input-indi">
+                    <label>Phone</label>
+                    <input type="number" name="user_phone">
+                </div>
+                <div class="input-indi">
+                    <label>Event Type</label>
+                    <input type="text" name="user_event">
+                </div>
+            </div>
+            <div class="eventdate">
+                <label>Event Date</label>
+                <input type="text" name="user_eventdate">
+            </div>
+            <div class="text-area">
+                <label>Additional Info</label>
+                <textarea name="message" class="textarea-box"></textarea>
+                <div class="button-wrapper">
+                    <input type="submit" value="SEND" class="button">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

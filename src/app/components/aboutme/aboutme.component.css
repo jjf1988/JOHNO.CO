@@ -1,0 +1,221 @@
+.aboutme-container {
+    display: flex;
+    background-color: #2D3142;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    margin-top:-3%;
+    z-index:18;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+.aboutme-paragraph{
+    display:flex;
+    flex-direction: column;
+    
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2.5%;
+    margin-top:3%;
+    padding: 3%;
+    width: 1000px;
+    height: 70%;
+    
+    background-color:#F6F7EB;
+}
+.socials-paragraph{
+    display:flex;
+    flex-direction: column;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2.5%;
+    margin-top:3%;
+    padding: 3%;
+    width: 1000px; 
+    height: 70%;
+   
+    background: #F6F7EB;
+}
+.schedule-wrapper{
+    display:flex;
+    flex-direction: column;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2.5%;
+    margin-top:3%;
+    padding: 3%;
+    width: 1000px; 
+    height: 70%;
+    
+    background: #F6F7EB;
+}
+.aboutme-text{
+    display:flex; 
+    flex-direction: column;
+}
+.social-links{
+    display:flex; 
+    flex-direction: column;
+}
+.social-links img{
+    width: 50px;
+    height: 50px;
+    
+}
+.social-icons {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.social-links p{
+    font-size: 1.7rem;
+}
+.social-links a{
+    color: #2D3142;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 1px;  
+}
+.social-links a:hover {
+    color:rgb(26, 20, 19);
+    transition: .25s ease-in-out;
+}
+.aboutme-paragraph h1{
+    display:flex;
+    color: #E63946;
+    justify-content:center;
+    background-color:#F6F7EB;
+    padding:6.5%;
+    
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.socials-paragraph h1 img{
+    display: flex;
+    height: 60px;
+}
+.socials-paragraph h1{
+    display:flex;
+    color: #E63946;
+    justify-content:center;
+    background-color:#F6F7EB;
+    padding:6.5%;
+   
+    letter-spacing: 2px;
+    font-size:2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.aboutme-paragraph p{
+    padding-top: 3%;
+}
+p{
+    color: #2D3142;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 400;   
+}
+.schedule-wrapper h1{
+    display:flex;
+    color: #E63946;
+    justify-content:center;
+    background-color:#F6F7EB;
+    padding:6.5%;
+    
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.schedule{
+    display:flex;
+    justify-content: space-between;
+}
+.schedule-text p{
+    padding-top: 3%;
+}
+@media only screen and (max-width: 1400px) {
+    .aboutme-container {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        align-items: center;
+        justify-items: center;
+        width:100%;
+        margin: 0 auto;
+        height:auto;
+    }
+    .aboutme-paragraph{
+        height:auto;
+        width:60%;
+    }
+    .socials-paragraph{
+        height:auto;
+        width:60%;
+    }
+    .schedule-wrapper{
+        height:auto;
+        width:60%;   
+    }
+}
+@media only screen and (max-width: 780px) {
+    .aboutme-container {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        align-items: center;
+        justify-items: center;
+        width:100%;
+        margin: 0 auto;
+        height:auto;
+    }
+    .aboutme-paragraph{
+        height:auto;
+        width:80%;
+    }
+    .socials-paragraph{
+        height:auto;
+        width:80%;
+    }
+    .schedule-wrapper{
+        height:auto;
+        width:80%;   
+    }
+}
+@media only screen and (max-width: 430px) {
+    .aboutme-container {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        align-items: center;
+        justify-items: center;
+        width:100%;
+        margin: 0 auto;
+        height:auto;
+    }
+    .aboutme-paragraph{
+        height:auto;
+        width:80%;
+        
+    }
+    .socials-paragraph{
+        height:auto;
+        width:80%;
+    }
+    .schedule-wrapper{
+        height:auto;
+        width:80%;
+    }
+    .schedule-wrapper h1, .schedule-wrapper p{
+        font-size: 1rem;
+    }
+    .aboutme-paragraph h1, .aboutme-paragraph p{
+        font-size: 1rem;
+    }
+
+    .socials-paragraph h1, .socials-paragraph p{
+        font-size: 1rem;
+    }  
+}
+
+
+

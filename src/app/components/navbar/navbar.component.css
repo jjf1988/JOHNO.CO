@@ -1,0 +1,126 @@
+/* 
+
+.navbar-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;   
+    background-color: #44BBA4;
+    padding: 1%;
+    
+}
+.logo p{
+    display:flex;
+    font-family: "Roboto";
+    color: #F6F7EB;
+    font-size: 4rem;
+    display: flex;
+    font-weight:700;
+    max-width: 100% !important;
+    overflow-x: hidden; 
+}
+
+
+.navbar-items {
+    display:flex;
+    justify-content:center;
+    margin-left: 50%;
+    width:100%;
+    height:auto;
+    color: #F6F7EB;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+p{
+    padding-right: 10%;
+}
+
+p:hover {
+    color:#3F88C5;
+    transition: .25s ease-in-out;
+}
+.logo{
+    display:flex;
+    
+    
+}
+img {
+    width: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    margin-top: 13%;
+    margin-left: 19%;
+    padding: 10px;
+}
+
+
+
+@media only screen and (max-width:1300px){
+    .navbar-container {
+        max-width: 100% !important;
+        overflow-x: hidden; 
+    }
+    .navbar-container .logo{
+        width:100%;
+    }
+    .navbar-container .logo img{
+        width: 50px;
+        height: 50px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .navbar-container .logo p{
+       font-size: 2rem;
+    }
+    .navbar-items{
+        display:none;
+    }
+    
+} */
+.navbar{
+    background-color: #2D3142 !important;
+    position: relative;
+    z-index:40;
+    
+}
+
+
+.container-fluid{
+    justify-content:space-between !important;
+}
+
+.container-fluid img{
+    width: 70px;
+    margin-left: 15% !important;
+    
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(246,247,235, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.nav-link{
+    color: #F6F7EB !important;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.navbar-light .navbar-toggler {
+    color: #F6F7EB !important;
+    border-color: #F6F7EB !important;
+}
+.navbar-collapse {
+    flex-grow:initial!important;
+    
+}
+
+.title {
+    color:#F6F7EB;
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    display: flex;
+    position:absolute;
+    left: 125px;
+    top: 13px;
+}
