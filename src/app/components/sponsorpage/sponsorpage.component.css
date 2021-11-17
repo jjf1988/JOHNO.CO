@@ -8,7 +8,7 @@
 .scene {
     position: relative;
     width: 100%;
-    height: 130vh;
+    height: 1500px;
     background: #2D3142;
     overflow: hidden;
     display: flex;
@@ -22,7 +22,7 @@
     display:flex;
     position: relative;
     animation: animate 0.2s ease infinite;
-    top: -240px;
+    top: -150px;
     left:11%;
   
     z-index:0;
