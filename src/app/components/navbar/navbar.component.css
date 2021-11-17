@@ -93,7 +93,7 @@ img {
 
 .container-fluid img{
     width: 70px;
-    margin-left: 15% !important;
+    margin-left: 10% !important;
     
 }
 .navbar-light .navbar-toggler-icon {
@@ -121,6 +121,6 @@ img {
     letter-spacing: 3px;
     display: flex;
     position:absolute;
-    left: 125px;
+    left: 105px;
     top: 13px;
 }

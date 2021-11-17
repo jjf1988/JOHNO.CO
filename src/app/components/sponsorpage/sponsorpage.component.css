@@ -128,8 +128,9 @@
     margin-top: -4%;
 }
 #sota{
-    width: 200px;
-    margin-left: -12%;
+    width: 350px;
+    margin-left: -17%;
+    margin-right: -8%;
     margin-top: -4%;
 }
 #soar{
@@ -202,7 +203,7 @@
         margin-left:2px;
     }
     #sota{
-        width: 100px;
+        width: 200px;
         margin-top: 24px;
         margin-bottom: 30px;
     }
@@ -265,7 +266,7 @@
         justify-content: center;
         align-items: center;
         box-shadow: 5px 5px 10px rgba(34, 33, 33, 0.322);
-        margin-left: -5px;
+        margin-left: -1px;
         
        
        
