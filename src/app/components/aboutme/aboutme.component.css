@@ -78,7 +78,7 @@
     letter-spacing: 1px;  
 }
 .social-links a:hover {
-    color:rgb(26, 20, 19);
+    color:#E63946;
     transition: .25s ease-in-out;
 }
 .aboutme-paragraph h1{

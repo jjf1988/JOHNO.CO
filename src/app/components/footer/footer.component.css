@@ -2,7 +2,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 190px;   
+    height: 250px;   
     padding: 1%;
     background-color: #F6F7EB;
 }
@@ -12,11 +12,13 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 190px;
+    height: 250px;
     overflow-x: hidden; 
 }
 #stince{
-    height: 300px;
+    height: 250px;
+    margin-top: -50px;
+    margin-bottom:-50px;
 }
 #sota{
     height: 150px;
